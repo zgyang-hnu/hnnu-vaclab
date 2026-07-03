@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HNNU视觉分析与计算实验室 VAC Lab</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        :root {
+            --main-blue: #0047AB;
+            --light-blue: #e6f0ff;
+            --text-gray: #333;
+            --border-gray: #ddd;
+        }
+        header {
+            background-color: var(--main-blue);
+            color: #fff;
+            padding: 1rem 5%;
+        }
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .lab-title h1 {
+            font-size: 1.6rem;
+        }
+        nav ul {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            list-style: none;
+            margin-top: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.4rem 0.6rem;
+            border-radius: 4px;
+        }
+        nav a.active {
+            background: rgba(255,255,255,0.3);
+        }
+        nav a:hover {
+            background: rgba(255,255,255,0.2);
+        }
+        .banner {
+            background: var(--light-blue);
+            padding: 4rem 5%;
+            text-align: center;
+        }
+        .banner h2 {
+            font-size: 2.2rem;
+            color: var(--main-blue);
+            margin-bottom: 0.8rem;
+        }
+        .banner p {
+            font-size: 1.1rem;
+            color: #444;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        section {
+            padding: 3rem 5%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .section-title {
+            font-size: 1.6rem;
+            color: var(--main-blue);
+            border-left: 5px solid var(--main-blue);
+            padding-left: 0.8rem;
+            margin-bottom: 1.8rem;
+        }
+        .intro-box {
+            line-height: 1.8;
+            color: var(--text-gray);
+            font-size: 1.05rem;
+        }
+        .news-item {
+            padding: 1rem;
+            border-bottom: 1px dashed var(--border-gray);
+        }
+        .news-item h4 {
+            color: var(--main-blue);
+            margin-bottom: 0.4rem;
+        }
+        .news-item span {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        footer {
+            background: var(--main-blue);
+            color: #fff;
+            text-align: center;
+            padding: 2rem 5%;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="lab-title">
+                <h1>HNNU | 视觉分析与计算实验室 VAC Lab</h1>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">首页</a></li>
+                <li><a href="team.html">科研团队</a></li>
+                <li><a href="achievement.html">学术成果</a></li>
+                <li><a href="contact-admission.html">招生与联系</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <h2>视觉分析与计算实验室</h2>
+        <p>Visual Analysis and Computing Lab, Hunan Normal University<br>深耕机器人视觉感知 · 聚焦计算机视觉与机器学习</p>
+    </div>
+
+    <section>
+        <h3 class="section-title">实验室简介</h3>
+        <div class="intro-box">
+            <p>实验室长期围绕机器人视觉感知、模式识别、计算机视觉、机器学习四大核心方向开展基础理论与工程应用研究。</p>
+            <br>
+            <p>团队成果持续发表于IEEE TPAMI 、IEEE TIP、TNNLS、TCSVT、TITS、CVPR、AAAI、Information Fusion等计算机视觉顶刊顶会，斩获中国电子学会科技进步一等奖、湖南省科技进步一等奖等多项省部级科研奖励，拥有多项发明专利与软件著作权。</p>
+            <br>
+            <p>实验室面向智能机器人、安防监控、低空无人机目标检测、自动驾驶语义分割等场景，推动视觉算法理论创新与产业落地融合。</p>
+        </div>
+    </section>，
+
+    <section style="background:#f9f9f9;">
+        <h3 class="section-title">实验室新闻</h3>
+        <div class="news-item">
+            <h4>2026硕士研究生招生持续开放</h4>
+            <span>发布时间：2026-07-03</span>
+            <p>实验室2026级硕士招生正在进行，欢迎计算机、自动化、电子信息相关专业同学投递简历咨询。</p>
+        </div>
+ 
+        <div class="news-item">
+            <h4>团队负责人合著论文录用于IEEE TPAMI顶刊</h4>
+            <span>发布时间：2026-02-17</span>
+            <p>团队负责人杨振耕老师合著论文 Efficient Point Cloud Processing with High-Dimensional Positional Encoding and Non-Local MLPs，发表于模式识别旗舰期刊IEEE TPAMI。</p>
+        </div>
+
+        <div class="news-item">
+            <h4>课题组论文录用于Information Fusion顶刊</h4>
+            <span>发布时间：2025-06-10</span>
+            <p>红外小目标分割综述论文Deep learning based infrared small object segmentation: Challenges and future directions，正式发表。</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 HNNU视觉分析与计算实验室 VAC Lab</p>
+        <p style="margin-top:0.5rem">地址：长沙市岳麓区湖南师范大学工程与设计学院前栋418室</p>
+    </footer>
+</body>
+</html>
