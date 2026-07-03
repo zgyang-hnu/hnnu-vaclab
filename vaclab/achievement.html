@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学术成果 | VAC Lab</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        :root {
+            --main-blue: #0047AB;
+            --light-blue: #e6f0ff;
+            --text-gray: #333;
+            --border-gray: #ddd;
+        }
+        header {
+            background-color: var(--main-blue);
+            color: #fff;
+            padding: 1rem 5%;
+        }
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .lab-title h1 {
+            font-size: 1.6rem;
+        }
+        nav ul {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            list-style: none;
+            margin-top: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.4rem 0.6rem;
+            border-radius: 4px;
+        }
+        nav a.active {
+            background: rgba(255,255,255,0.3);
+        }
+        nav a:hover {
+            background: rgba(255,255,0.2);
+        }
+        section {
+            padding: 3rem 5%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .section-title {
+            font-size: 1.6rem;
+            color: var(--main-blue);
+            border-left: 5px solid var(--main-blue);
+            padding-left: 0.8rem;
+            margin-bottom: 1.8rem;
+        }
+        .list-item {
+            line-height: 1.7;
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px dashed var(--border-gray);
+        }
+        footer {
+            background: var(--main-blue);
+            color: #fff;
+            text-align: center;
+            padding: 2rem 5%;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="lab-title">
+                <h1>HNNU | 视觉分析与计算实验室 VAC Lab</h1>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="team.html">科研团队</a></li>
+                <li><a href="achievement.html" class="active">学术成果</a></li>
+                <li><a href="contact-admission.html">招生与联系</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h3 class="section-title">预印论文</h3>
+        <div class="list-item">Handong Zeng, Zhengeng Yang, Shuai Zhang, Shikai Chen, Hongshan Yu. "Boosting Infrared Small Target Detection via Logit-Domain Contrast and Adaptive Shape Refinement." https://arxiv.org/abs/2607.01555 (2026). 2026年7月</div>
+        
+    </section>
+
+
+    <section>
+        <h3 class="section-title">发表论文</h3>
+        <div class="list-item">Zou, Yanmei, Hongshan Yu, Yaonan Wang, Zhengeng Yang, Xieyuanli Chen, Kailun Yang, and Naveed Akhtar. "Efficient Point Cloud Processing with High-Dimensional Positional Encoding and Non-Local MLPs." IEEE Transactions on Pattern Analysis and Machine Intelligence (2026). 2026年2月</div>
+        <div class="list-item">Zhengeng Yang*, Hongshan Yu*, Jianjun Zhang, Qiang Tang, and Ajmal Mian. "Deep learning based infrared small object segmentation: Challenges and future directions." Information Fusion, 2025 (118): 103007. 2025年6月</div>
+        <div class="list-item">Zhengeng Yang, Hongshan Yu*, Wei Sun, Li Cheng and Ajmal Mian. "Domain-invariant Prototypes for Semantic Segmentation." IEEE Transactions on Circuits and Systems for Video Technology,2024,34(8):7614-7627. date of current version 12 August 2024</div>
+        <div class="list-item">Zou, Yanmei, Hongshan Yu*, Zhengeng Yang*, Zechuan Li, and Naveed Akhtar. "Improved MLP Point Cloud Processing with High-Dimensional Positional Encoding." In Proceedings of the AAAI Conference on Artificial Intelligence, 38(7), 7891-7899,2024.  2024-2-20-2-27</div>
+        <div class="list-item">Zhengeng Yang#, Hongshan Yu#*, Yong He， Wei Sun Zhi-Hong Mao Ajmal Mian. Fully Convolutional Network-Based Self-Supervised Learning for Semantic Segmentation[J]. IEEE Transactions on Neural Networks and Learning Systems, 2024,35(1):132-142.  date of current version 5 January 2024 </div>
+        <div class="list-item"> Zechuan Li, Hongshan Yu*, Zhengeng Yang*, Tongjia Chen, NAVEED AKHTAR AShapeFormer : Semantics-Guided Object-Level Active Shape Encoding for 3D Object Detection via Transformers. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2023:1012-1021. Vancouver, Canada  June 17 2023 to June 24 2023</div>
+        <div class="list-item">Zhengeng Yang#*，Hongshan Yu#*，Qiang Fu，Wei Sun，Wenyan Jia，Mingui Sun，Zhi-Hong Mao. NDNet: Narrow while deep network for real-time semantic segmentation[J]. IEEE Transactions on Intelligent Transportation Systems, 2021, 22(9): 5508-5519.  date of current version September 1, 2021.</div>
+        <div class="list-item">Zhengeng Yang, Hongshan Yu*,Mingtao Feng,Wei Sun,Xuefei Lin,Mingui Sun,Zhi-Hong Mao,Ajmal Mian. Small object augmentation of urban scenes for real-time semantic segmentation[J]. IEEE Transactions on Image Processing, 2020, 29: 5175-5190. Date of current version March 23, 2020.</div>
+        <div class="list-item"> Qiang Fu，Hongshan Yu*，Xiaolong Wang，Zhengeng Yang*，Yong He，Hong Zhang，Ajmal Mian. Fast ORB-SLAM without keypoint descriptors[J]. IEEE Transactions on Image Processing, 2021, 31: 1433-1446.   date of current version February 2, 2022.</div>
+        <div class="list-item"> Zhengeng Yang, Hongshan Yu, Shunxin Cao, Qi Xu, Ding Yuan, Hong Zhang, Wenyan Jia, Zhi-Hong Mao, and Mingui Sun. "Human-mimetic estimation of food volume from a single-view RGB image using an AI system." Electronics 10, no. 13 (2021): 1556.</div>
+        <div class="list-item">Zhengeng Yang, Hongshan Yu, Wei Sun, Zhihong Mao, and Mingui Sun. "Locally shared features: An efficient alternative to conditional random field for semantic segmentation." IEEE Access 2018, (7): 2263-2272.</div>
+        <div class="list-item">Yu Hongshan，Yang Zhengeng，Tan Lei，Wang Yaonan，Sun Wei，Sun Mingui，Tang, Yandong. Methods and datasets on semantic segmentation: A review, Neurocomputing, 304: 82-103, 2018-08-23</div>
+    </section>
+
+    <footer>
+        <p>© 2026 湖南师范大学视觉分析与计算实验室 VAC Lab</p>
+        <p style="margin-top:0.5rem">地址：长沙市岳麓区湖南师范大学工程与设计学院前栋418室</p>
+    </footer>
+</body>
+</html>
